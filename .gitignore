@@ -1,0 +1,14 @@
+# Virtual environments & caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Trained model checkpoints
+checkpoints/
+
+# OS files
+.DS_Store

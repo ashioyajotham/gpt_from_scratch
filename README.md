@@ -1,4 +1,4 @@
-# GPT From Scratch (First Principles)
+# GPT From Scratch
 
 A minimal, readable **Pre-LayerNorm GPT-2** implementation built from first principles using raw PyTorch tensor operations and `nn.Parameter` — without using `nn.Linear`, `nn.Embedding`, `nn.LayerNorm`, `nn.GELU`, `nn.Dropout`, `nn.MultiheadAttention`, or `F.softmax` in the model.
 

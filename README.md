@@ -1,6 +1,6 @@
 # GPT From Scratch
 
-A minimal, readable **Pre-LayerNorm GPT-2** implementation built from first principles using raw PyTorch tensor operations and `nn.Parameter` — without using `nn.Linear`, `nn.Embedding`, `nn.LayerNorm`, `nn.GELU`, `nn.Dropout`, `nn.MultiheadAttention`, or `F.softmax` in the model.
+A minimal, readable **GPT-2** implementation built from first principles using raw PyTorch tensor operations and `nn.Parameter` — without using `nn.Linear`, `nn.Embedding`, `nn.LayerNorm`, `nn.GELU`, `nn.Dropout`, `nn.MultiheadAttention`, or `F.softmax` in the model.
 
 For a complete top-to-bottom explanation of every file, tensor shape, and design choice, see **[WALKTHROUGH.md](WALKTHROUGH.md)**.
 
